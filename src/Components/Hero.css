@@ -1,0 +1,100 @@
+.hero-content{
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding-top: 60px;
+}
+
+.hero-head{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700 !important;
+    line-height: 78.4px;
+    text-align: center;
+    max-width: 486px !important;
+    margin: 0 auto; 
+}
+
+.hero-word{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400 !important;
+    line-height: 28.8px;
+    text-align: center;
+    max-width: 518px;
+    margin: 0 auto; 
+    margin-top: 30px;
+    text-align: center  !important;
+}
+
+.project-head{
+    color: #333333;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600 !important;
+    line-height: 33.6px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.project-word{
+    color: #9c9c9c;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    max-width: 584px;
+}
+
+.interior{
+    margin-left: 27%;
+}
+
+@media (max-width: 768px) {
+    .hero-head{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700 !important;
+        line-height: 50.4px;
+        text-align: center;
+        max-width: 486px !important;
+        margin: 0 auto; 
+    }
+    
+    .hero-word{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400 !important;
+        line-height: 24.8px;
+        text-align: center;
+        max-width: 518px;
+        margin: 0 auto; 
+        margin-top: 30px;
+        text-align: center  !important;
+    }
+
+    .project-head{
+        color: #333333;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600 !important;
+        line-height: 33.6px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    
+    .project-word{
+        color: #9c9c9c;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23.8px;
+        text-align: left;
+        max-width: 584px;
+    }
+
+    .interior{
+        margin-left: 23px;
+    }
+}
